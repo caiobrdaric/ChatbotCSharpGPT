@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFvNWu+c/UU=",
+  "dgSpecHash": "ufc+U3Ggflk=",
   "success": true,
-  "projectFilePath": "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj",
+  "projectFilePath": "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\ChatbotIA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caio\\.nuget\\packages\\icopenai\\1.2.0\\icopenai.1.2.0.nupkg.sha512",
     "C:\\Users\\Caio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

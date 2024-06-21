@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj": {}
+    "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\ChatbotIA.csproj": {}
   },
   "projects": {
-    "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj": {
+    "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\ChatbotIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj",
+        "projectUniqueName": "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\ChatbotIA.csproj",
         "projectName": "ChatbotIA",
-        "projectPath": "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj",
+        "projectPath": "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\ChatbotIA.csproj",
         "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\obj\\",
+        "outputPath": "C:\\Desenv\\ChatbotCSharpGPT\\ChatbotIA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
