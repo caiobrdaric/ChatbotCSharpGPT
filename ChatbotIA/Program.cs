@@ -22,6 +22,7 @@ async Task pergunta(string prompt)
 
     string apiKey = "sk-proj-YVUxbVJmDP9ByWZ5WcL5T3BlbkFJDPKq2s6ARl1iGjsS5wCL";
 
+
     using (var client = new HttpClient())
     {
         try
@@ -39,19 +40,20 @@ async Task pergunta(string prompt)
             };
 
             string jsonPayload = JsonSerializer.Serialize(requestPayload);
+            
             var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
 
             var response = await client.PostAsync("https://api.openai.com/v1/chat/completions", content);
-            Console.WriteLine(await response.Content.ReadAsStringAsync());
+            
             if (response.IsSuccessStatusCode)
             {
                 string responseString = await response.Content.ReadAsStringAsync();
                 Resposta data = JsonSerializer.Deserialize<Resposta>(responseString);
-
+                
                 Console.ForegroundColor = ConsoleColor.Red;
                 foreach (var choice in data.choices)
                 {
-                    Console.WriteLine(choice.text.Replace("\n", ""));
+                    Console.WriteLine(choice.message.content);   
                 }
                 Console.ResetColor();
             }
@@ -99,18 +101,30 @@ async Task imagem(string prompt)
     }
 }
 
+
 class Resposta
 {
     public List<Choice> choices { get; set; }
     public Data[] data { get; set; }
     public class Choice
     {
-        public string text { get; set; }
+       public int index { get; set; }
+       public string logoprobs { get; set; }
+       public string finish_reason { get; set; }
+
+        public message message { get; set; }
+        public string description { get; set; }
+    }
+
+    public class message
+    {
+       public string role { get; set; }
+       public string content { get; set; }
     }
 
     public class Data
     {
-        public string url { get; set; }
+       public string url { get; set; }
 
     }
 }
