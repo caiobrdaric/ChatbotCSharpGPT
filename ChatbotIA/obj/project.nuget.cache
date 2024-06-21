@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "fFvNWu+c/UU=",
+  "success": true,
+  "projectFilePath": "C:\\Desenv\\ChatbotIA\\ChatbotIA\\ChatbotIA\\ChatbotIA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Caio\\.nuget\\packages\\icopenai\\1.2.0\\icopenai.1.2.0.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\openai\\2.0.0-beta.5\\openai.2.0.0-beta.5.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\openai_updated\\1.2.2\\openai_updated.1.2.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\system.clientmodel\\1.1.0-beta.4\\system.clientmodel.1.1.0-beta.4.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
