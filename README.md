@@ -79,3 +79,4 @@ The main logic of the application is divided into a few key parts:
 -   Ensure you have an active OpenAI API key.
 -   The model used is `gpt-3.5-turbo-0125`; you can change it based on availability and requirements.
 -   Adjust `temperature` and `max_tokens` as needed to fine-tune the responses.
+---
