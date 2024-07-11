@@ -18,7 +18,7 @@ async Task Pergunta(string prompt)
     if (String.IsNullOrWhiteSpace(prompt))
         return;
 
-    string apiKey = "sk-proj-YVUxbVJmDP9ByWZ5WcL5T3BlbkFJDPKq2s6ARl1iGjsS5wCL";
+    string apiKey = "yourApiKey";
 
 
     using (var client = new HttpClient())
